@@ -1,0 +1,384 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+/**************************************************
+
+    selectCategory カテゴリ選択
+
+/*************************************************/
+
+.selectCategory .selectCategoryDt{
+	float:left;
+	width:122px;
+}
+.selectCategory .selectCategoryDd{
+	margin-left:138px;
+	background:#dedede;
+	overflow:hidden;
+	_zoom:1;
+}
+.selectCategory .selectCategoryDd .clearfix{
+	margin:6px 8px;
+}
+.selectCategory .setN{
+	color:#888;
+}
+.selectCategory .clearCategory{
+	float:right;
+	width:43px;
+	display:block;
+}
+
+/*---- ポップアップウィンドウ */
+
+#selectCategoryWindow{
+	background:#fff;
+}
+#selectCategoryWindow img{
+	vertical-align:middle;
+}
+#selectCategoryWindow .mainContents .inner{
+	width:572px;
+}
+#selectCategoryWindow .mainContents{
+	width:620px;
+	padding-bottom:24px;
+}
+#selectCategoryWindow .cateListHead{
+    position:relative;
+	background:#777;
+	padding:4px 8px;
+}
+#selectCategoryWindow h2{
+	border-bottom:1px dotted #666;
+	padding-bottom:4px;
+	font-size:14px;
+}
+#selectCategoryWindow h3{
+	color:#fff;
+	float:left;
+	line-height:20px;
+}
+
+.listSwitch{
+	float:right;
+}
+.listSwitch li{
+	float:left;
+	margin-left:4px;
+}
+#selectCategoryWindow .cateListWrap{
+	border:1px solid #999;
+	height:360px;
+	overflow:auto;
+	background:#eee;
+}
+.cateListWrap .cateListInner{
+	margin:8px;
+}
+
+#selectCategoryWindow #layerSelect .cateList li a{
+	color:#bbb;	
+	cursor:default;
+}
+#selectCategoryWindow #layerSelect .cateList li .clickable.selected{
+	font-weight:normal;
+	background:none;	
+}
+
+#msgArea{
+	position:absolute;
+	top:0px;
+	left:0;
+	background-color:rgba(0,0,0,0.7);
+	width:100%;
+	z-index:10000;
+	overflow:hidden;
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#B4000000, endcolorstr=#B4000000, gradienttype=0);
+}
+#selectCategoryWindow .error{
+	background-color:rgba(255,0,0,0.8);
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#ffff0000, endcolorstr=#ffff0000, gradienttype=0);
+}
+#msgArea p{
+	color:#fff;
+	margin:8px;
+}
+
+
+/*---- カテゴリ検索 */
+#selectCategoryWindow .resultKeyword{
+	display:none;
+}
+#selectCategoryWindow .searchItem{
+	float:right;
+	width:191px;
+	border:1px solid #b5b5b5;
+	border-right:0;
+	position:relative;
+	height:22px;
+	background:url(../images/product/place/searchIcon.png) no-repeat 2px 3px;
+}
+#selectCategoryWindow .searchItem input{
+	margin-right:0;	
+}
+#selectCategoryWindow .searchInput{
+	line-height:22px;
+	height:22px;
+	width:110px;
+	float:left;
+	margin-left:20px;
+	border:none;
+}
+#selectCategoryWindow .searchBtn{
+	background:url(../images/product/select_category/category_searchBtn.png) no-repeat;
+	width:74px;
+	height:24px;
+	text-indent:-9999em;
+	border:none;
+	cursor:pointer;	
+	position:absolute;
+	right:0;
+	top:-1px;
+}
+
+#selectCategoryWindow #searchContents{
+	position:relative;	
+}
+#selectCategoryWindow #searchContents #treeback{
+	position:absolute;
+	right:24px;
+	top:-2px;	
+}
+#selectCategoryWindow #searchContents .resultKeyword{
+	display:block;
+	float:left;	
+	margin-top:4px;
+}
+#selectCategoryWindow #searchContents .cateListWrap{
+	border:none;
+	background:none;	
+	border-bottom:1px solid #dadada;
+	height:320px;
+	position:relative;
+}
+#selectCategoryWindow #searchContents .cateListInner{
+	margin:0;
+}
+#selectCategoryWindow #searchContents #searchResult{
+	background:#fff;
+	word-wrap:break-word;
+}
+#selectCategoryWindow #searchContents #searchResult tbody tr:hover{
+	cursor:pointer;
+	background:#e0e0e0;
+}
+#selectCategoryWindow #searchContents #searchResult tbody tr#resultMsg:hover{
+	cursor:default;
+	background:#fff;
+}
+#selectCategoryWindow #searchContents #searchResult tbody tr.noSelect{
+	cursor:default;
+	background:#eee;
+    color:#ccc;
+}
+#selectCategoryWindow #searchContents #searchResult .selected td{
+	background:#FFF6E2;
+}
+
+#selectCategoryWindow #searchContents .cateListFoot{
+	position:relative;
+	background:#dedede;
+	padding:8px;
+	margin-top:8px;	
+	max-height:60px;
+	
+	overflow:auto;
+}
+#selectCategoryWindow #searchContents .cateListFoot dt{
+	float:left;	
+	margin-right:8px;
+	font-weight:bold;
+}
+#selectCategoryWindow #searchContents .highlight{
+	background:#FF3;	
+}
+
+/*---- ツリー */
+
+#cateTop{
+	padding-left:14px;
+	background:url(../images/product/select_category/top.png) no-repeat 0 4px;
+}
+#cateTop .empty{
+	height:20px;
+}
+#allCate{
+	float:left;
+	margin:0 0 0 -14px;
+	width:16px;
+	height:16px;
+	text-indent:-9999em;
+	cursor:pointer;
+	background:url(../images/product/select_category/all.png) no-repeat 0 3px;
+}
+.cateListParent li{
+	padding:0 0 0 14px;
+	background:url(../images/product/select_category/line.png) repeat-y top left;
+}
+.cateListParent li.child .listLine{
+	padding:0 0 0 14px;
+	margin-left:-14px;
+	background:url(../images/product/select_category/child.png) repeat-y top left;
+}
+.cateListParent li.lastChild .listLine{
+	padding:0 0 0 14px;
+	margin-left:-14px;
+	line-height:1.6;
+	background:url(../images/product/select_category/lastChild.png) no-repeat left bottom;
+}
+.cateListParent li.lastChild{
+	background:none;
+}
+a.treeSwitch{
+	float:left;
+	margin:0 0 0 -14px;
+	width:14px;
+	height:16px;
+	text-indent:-9999em;
+	cursor:pointer;
+}
+.treeSwitch.open{
+	background:url(../images/product/select_category/treeOpen.png) no-repeat 0 0;
+}
+.treeSwitch.close{
+	background:url(../images/product/select_category/treeClose.png) no-repeat 0 0;
+}
+a:hover.treeSwitch{
+	background-position:0 -16px;
+}
+
+.listLine a{
+	display:block;
+	padding:1px 2px;
+}
+.listLine a:hover{
+	cursor:pointer;
+	background-color:#eee;
+}
+.cateListParent .clickable.selected{
+	background-color:#FEE9B7;
+	font-weight:bold;
+}
+.cateListParent a:hover.clickable.selected{
+	background-color:#FEE9B7;
+}
+.cateListInner a.clickable:link,
+.cateListInner a.clickable:visited,
+.cateListInner a.clickable:active,
+.cateListInner a.clickable:hover{
+	text-decoration:none;
+	color:#333;
+}
+#selectCategoryWindow .cateListParent .firstChild{
+    margin-left: -14px;
+}
+
+
+/**************************************************
+
+    検索ボックス
+
+/*************************************************/
+
+#searchWrap{
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #bfbfbf;
+}
+.mainContents #searchWrap{
+	width:100%;
+}
+#searchWrap h3{
+	background:url(../images/searchTitle.png) no-repeat left top;
+}
+#searchWrap h3 span{
+	font-size:13px;
+	line-height:32px;
+	margin-left:32px;
+}
+#searchWrap #searchInner{
+	margin:16px;
+}
+label{
+	cursor:pointer;
+}
+.inputList{
+	overflow:hidden;
+	_zoom:1;
+	padding:0;
+	margin:0;
+}
+.inputList li{
+	float:left;
+	list-style:none;
+	padding:0;
+}
+.selectCategory .type2 li{
+	width:49%;
+}
+.selectCategory .type3 li{
+	width:33%;
+}
+.selectCategory .type4 li{
+	width:25%;
+}
+.selectCategory .type3_last li{
+	width:25%;
+}
+.selectCategory .type3_last li.lastChild{
+	width:49%;
+}
+.selectCategory .inputList li.large{
+	width:74%;
+}
+a:hover img{
+	filter: alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity:0.75;
+}
+
+#searchTable{
+	border-collapse:collapse;
+	border:0;
+    border-top:1px solid #bfbfbf;
+    border-left:1px solid #bfbfbf;
+	width:100%;
+}
+#searchTable th,
+#searchTable td{
+    border-bottom:1px solid #bfbfbf;
+    border-right:1px solid #bfbfbf;
+    padding:6px;
+}
+#searchTable th{
+    background:#f0f0f0;
+    color:#333;
+	width:100px;
+}
+#searchTable input{
+	padding:2px;
+}
+
+#searchResult td.itemTd{
+	text-align:left;	
+}
+#searchResult td .itemName p{
+	white-space:normal;	
+	word-break:break-all;
+	word-wrap:break-word;
+}

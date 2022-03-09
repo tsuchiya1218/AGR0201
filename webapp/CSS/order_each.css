@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+#order_each .resultNumber{
+	float:left;	
+	line-height:20px;
+}
+#order_each .resultNumberSet{
+    float: right;
+    margin-left: 16px;
+}
+#order_each #graphTable td img{
+	vertical-align:middle;
+	margin-right:4px;	
+}
+#order_each #graphTable th{
+	width:60px;	
+	background:#FFFBE5;
+}
+#order_each #graphTable th.sat{
+	background:#BDE2FF;
+}
+#order_each #graphTable th.sun{
+	background:#FFBDCE;
+}
+#order_each #searchResult .selected td{
+	background:#FFF6E2;
+}
+#order_each #tableWrap{
+	border-bottom:1px solid #ccc;	
+}
+#order_each #searchResult td{
+	text-align:center;	
+}
+#order_each #searchResult .itemName{
+	text-align:left;	
+}
+#order_each h3{
+	font-weight:normal;
+}
+#order_each h3 span{
+	font-weight:bold;
+}

@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+
+/*-------------------------------------------------------------
+ 
+ 価格com
+  
+-------------------------------------------------------------*/
+#kakakucom{
+	margin-top:8px;	
+}
+#kakakucom th,
+#detailPop .connectInfo th{
+	font-size:9pt;
+	font-weight:normal;	
+	background:#f0f0f0;
+	width:127px;
+	text-align:right;
+	padding:5px;
+}
+#kakakucom td,
+#detailPop .connectInfo td{
+	background:#fff;	
+	padding:5px;
+}
+#kakakucom .caution{
+	color:#ff0000;
+	margin:4px;	
+}
+#kakakucom dl,#kakakucom dt,#kakakucom dd{
+	display:inline;	
+}
+#kakakucom dl{
+	margin-right:12px;	
+}
+#kakakucom dd{
+	margin:0;	
+}
+#kakakucom dt{
+	font-weight:bold;	
+}
+#kakakucom th#kakakuTitle{
+	background:#777;
+	color:#fff;
+	text-align:left;
+	font-weight:bold;	
+}
+#kakakucom td#kakakuHead{
+	padding:12px 0;
+	text-align:center;
+}
+#kakakucom td#kakakuHead #kakakucom_logo{
+	margin-bottom:12px;	
+}
+
+#kakakucom p{
+	margin:0;	
+}
+
+#kakakucom .mgnT8{
+	margin-top:8px;	
+}
+
+/*-------------------------------------------------------------
+ 関連商品
+-------------------------------------------------------------*/
+
+#connectBtn{
+	text-align:center;	
+}
+.connectItem{
+	margin:8px;
+	border:1px solid #ccc;	
+}
+.connectItem *{
+	padding:0;
+	margin:0;	
+}
+.connectItem h2{
+	background:#d4e0eb;
+	padding:6px 8px;
+	font-size:13px;
+}
+.connectItem h2 a{
+	color:#0054A6;
+	text-decoration:underline;	
+}
+.connectItem h2 a:hover{
+	text-decoration:none;	
+}
+.connectItem .connectCat{
+	margin:8px 8px 16px;
+	text-align:left;
+}
+.connectItem .connectCat li{
+	list-style:none;
+	display:inline;	
+}
+.connectItem .connectDetail{
+	margin:0 8px 12px;	
+	overflow:hidden;
+	_zoom:1;
+}
+.connectItem .connectInfo{
+	float:left;
+	width:350px;
+	text-align:left;
+}
+.connectItem .connectInfo table{
+	border-collapse:collapse;
+	border:1px solid #999;	
+}
+.connectItem .connectInfo td{
+	border:1px solid #999;	
+}
+#kakakucom .connectInfo th,
+#detailPop .connectInfo th{
+	width:70px;
+	background:#fff;
+	text-align:left;
+	border:1px solid #999;
+	background:#eee;	
+}
+#kakakucom .connectInfo #lowPrice em,
+#detailPop .connectInfo #lowPrice em{
+	color:#ff0000;
+	font-weight:bold;
+	font-size:15px;
+	font-style:normal;
+}
+#kakakucom .connectInfo #entryPrice em,
+#detailPop .connectInfo #entryPrice em{
+	color:#333;
+	font-weight:bold;
+	font-size:15px;
+	font-style:normal;
+}
+#kakakucom .connectInfo .connectShop,
+#detailPop .connectInfo .connectShop{
+	color:#999;	
+	padding-left:4px;
+}
+#kakakucom .connectItem .formAssist{
+	margin:0 8px 4px;	
+}
+#kakakucom .formLarge{
+	width:97%;	
+}
+
+#kakakuWaiting p,
+#kakakuReceipt p{
+	text-align:center;
+	line-height:1.4;
+}
+#kakakuWaiting,
+#kakakuReceipt{
+	margin-top:0;
+	margin-left:0;	
+}
+#kakakuWaiting{
+	text-align:center;
+	background:#eee;
+	border-color:#c9c9c9;
+}
+#kakakuWaiting img{
+	margin-top:4px;	
+}
+
+/*-------------------------------------------------------------
+ ポップアップ
+-------------------------------------------------------------*/
+#detailPop{
+	background:#fff;
+	text-align:center;	
+}
+#detailPop p{
+	text-align:left;	
+}
+#detailWrap{
+	width:100%;	
+	overflow:hidden;
+	_zoom:1;
+}
+#detailWrap .inner{
+	margin:32px auto 0;
+	width:700px;	
+}
+#detailPop h1{
+	text-align:center;
+	font-size:16px;
+	background:#eee;
+	line-height:32px;
+	border-bottom:3px solid #ccc;
+}
+
+/* タブ */
+#detailPop .tabs{
+	width:700px;
+	overflow:hidden;
+	_zoom:1;
+}
+#detailPop .tabs li{
+	float:left;
+	width:180px;
+	margin-left:6px;
+	line-height:32px;
+	text-align:center;
+	background:#999;
+	font-weight:bold;
+}
+#detailPop .tabs li a{
+	display:block;
+	width:180px;
+	height:32px;
+	color:#fff;
+}
+#detailPop .tabs li a:hover{
+	background:#333;
+	color:#fff;
+	text-decoration:none;
+}
+#detailPop .tabs li img{
+	vertical-align:middle;
+	margin-right:4px;	
+}
+#detailPop .tabs li.active{
+	background:#333;
+}
+#detailPop .tabs li.active a{
+	
+	color:#fff;
+}
+
+/* tabの中身 */
+#detailPop .categorySelect table,
+#detailPop .categorySelect select{
+	width: 95%;	
+	margin: auto; 
+}
+#detailPop .tab_container{
+	border:1px solid #999;	
+	border-top:3px solid #333;
+}
+#detailPop .tab_inner{
+	margin:24px 16px 16px;
+	width:668px;	
+}
+#detailPop #registDay{
+	text-align:left;	
+}
+#detailPop #registDay li{
+	display:inline;
+	padding-right:16px;
+}
+#detailPop #registDay li input{
+	vertical-align:top;	
+}
+#detailPop .tab_inner h2{
+	background:url(/makeshop/newmanager/images/product/icon/h2_title.png) no-repeat left;
+	padding-left:20px;	
+	line-height:16px;
+	font-size:13px;
+	margin:16px auto 12px;
+}
+#detailPop #tab2,#detailPop #tab3,#detailPop #tab4{
+	text-align:center;	
+}
+#detailPop #tab2 table,#detailPop #tab3 table,#detailPop #tab4 table{
+	margin:0 auto;
+}
+#detailPop .tab_inner input.text{
+	width:300px;	
+}
+#detailPop .tab_inner th img{
+	margin-right:4px;	
+}
+
+/* 検索結果 */
+#detailPop #searchResult{
+	margin-top:24px;	
+}
+#detailPop #searchResult h3{
+	font-size:15px;
+}
+#detailPop #searchResult .searchResultHit{
+	text-align:right;	
+	margin-bottom:4px;
+}
+#detailPop #searchResult .connectItem{
+	border:none;	
+}
+#detailPop #searchResult .connectItem li{
+	border:1px solid #ccc;	
+	margin-bottom:8px;
+}
+#detailPop #searchResult .connectCat li{
+	border:none;	
+}
+#detailPop #searchResult .connectDetail{
+	margin:0 0 16px 16px;	
+}
+#detailPop #searchResult .connectInfo{
+	width:380px;	
+}
+
+/* フォーム入力例 */
+#detailPop .formAssist{
+	margin:5px;
+	line-height:1.4;
+	font-size:12px;
+	color:#999;
+}
+
+/**************************
+
+ 価格com用 メンテナンス
+
+***************************/
+#maintenance{
+    background:#b80000;
+	color:#fff; 
+	padding:8px;
+	margin:0 0 16px 16px;	
+}
+#maintenance p{
+	margin:0;
+	padding:0;
+}	

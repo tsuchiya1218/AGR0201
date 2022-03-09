@@ -1,0 +1,314 @@
+@charset "euc-jp";
+/* CSS Document */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, figure {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+input, button{
+  -webkit-appearance:  none;
+  -moz-appearance:  none;
+  appearance:  none;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans Japanese",'������茹�� Pro', 'Hiragino Kaku Gothic Pro', '�＜����', 'Meiryo', sans-serif !important;
+  vertical-align: middle;
+  border: none;
+}
+
+button, label, input[type="submit"] {
+  cursor: pointer;
+}
+
+body,html{
+	height: 100%;
+	position: relative;
+}
+
+body {
+  background: #E5EFF7;
+  font-family: "Noto Sans Japanese", '������茹�� Pro', 'Hiragino Kaku Gothic Pro', '�＜����', 'Meiryo', sans-serif !important;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #333;
+}
+
+a, a:link, a:visited, a:active {
+  color: #002E56;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none
+}
+
+fieldset{
+	border: none;
+}
+
+.wrap{
+	width: 500px;
+	margin: 48px auto 0;
+}
+
+.login-header{
+	margin-bottom: 24px;
+}
+
+.header-logo{
+	width: 170px;
+}
+
+.login-contents{
+	background: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 32px 48px;
+	border-radius: 8px;
+	box-shadow: 0 0 15px rgba(8,58,96,0.1);
+	margin-bottom: 16px;
+}
+
+
+
+.form-item{
+	text-align: left;
+	margin-bottom: 16px;
+}
+
+.form-label{
+	display: block;
+	margin-bottom: 4px;
+	color: #002E56;
+	font-size: 16px;
+}
+
+input[type="text"],input[type="password"]{
+	border-radius: 4px;
+	border: 1px solid #E5E5E5;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+	font-size: 16px;
+}
+
+.reminder-text{
+	margin-top: 4px;
+}
+
+.form-button{
+	margin-top: 32px;
+}
+
+.login-button{
+	width: 100%;
+	background: #005BAC;
+	color: #fff;
+	border-radius: 4px;
+	padding: 16px 0;
+	font-size: 18px;
+}
+
+.login-button:hover{
+	background: #0A375F;
+	transition: 0.1s linear; 
+}
+
+.save-text{
+	margin-top: 8px;
+	text-align: left;
+}
+
+.save-check{
+	position: relative;
+	margin-right: 6px;
+	width: 1.25rem;
+	height: 1.25rem;
+}
+
+.save-check:before {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	top: 0.3rem;
+	left: 0.35rem;
+	width: 0.5rem;
+	height: 0.3rem;
+	-webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+	transition:         transform 0.4s cubic-bezier(0.45, 1.8, 0.5, 0.75);
+	-webkit-transform: rotate(-45deg) scale(0, 0);
+	transform: rotate(-45deg) scale(0, 0);
+	border: 2px solid #fff;
+	border-top-style: none;
+	border-right-style: none;
+}
+.save-check:checked:before {
+	-webkit-transform: rotate(-45deg) scale(1, 1);
+	transform: rotate(-45deg) scale(1, 1);
+}
+.save-check:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1.25rem;
+	height: 1.25rem;
+	cursor: pointer;
+	background: #E5E5E5;
+	border-radius: 50%;
+}
+
+.save-check:checked{
+	background: none;
+}
+
+.save-check:checked:after{
+	background: #005BAC;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.notes{
+	text-align: left;
+	font-size: 13px;
+	color: #66829A;
+}
+
+.bnr-box{
+	margin-top: 32px;
+}
+
+.bnr-box img{
+	margin-bottom: 8px;
+}
+/* --------------------- emergency infomation*/
+.header-emergency-information{
+	 background-color: #F00;
+	 padding:1em;
+	 font-weight: bold;
+	 position:relative;
+	 z-index:100;
+}
+
+.header-emergency-informationlink{
+	color:#fff !important;
+	text-decoration: none;
+}
+
+.header-emergency-informationlink:hover{
+	text-decoration: none;
+}
+
+.login-regist-link {
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.am-campaign-bnr {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	/*display: none;*/
+	/*font-family: 'Noto Sans Japanese';*/
+	z-index: 10000;
+}
+.msjp-close {
+	background: #fff;
+	padding: 6px 10px;
+	border: 1px solid #333;
+	position: absolute;
+	top: -16px;
+	left: -16px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.msjp-open {
+	background: #fff;
+	padding: 6px 10px;
+	border: 1px solid #333;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	cursor: pointer;
+	display: none;
+	font-weight: bold;
+}
+@media (max-width: 640px) {
+	img {
+    	max-width: 100%;
+  	}
+	
+	body {
+		font-size: 13px;
+  	}
+	
+	.wrap{
+		width: 92%;
+		margin-top: 24px;	
+	}
+	
+	.login-contents{
+		padding: 32px;
+	}
+	
+	.form-label{
+		font-size: 15px;
+	}
+	
+	.login-button{
+		padding: 10px 0;
+	}
+	
+	.save-text{
+		margin-top: 12px;
+		font-size: 14px;
+		position: relative;
+	}
+  .am-campaign-bnr img {
+    max-width: 95%;
+  }
+  .msjp-close {
+    left: 0;
+  }
+	/* --------------------- emergency infomation*/
+	.header-emergency-information a {
+		font-size: 14px;
+	}
+}

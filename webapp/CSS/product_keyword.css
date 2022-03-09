@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+p{
+	text-align:left;	
+}
+.resultNumber{
+	float:left;
+}	
+#product_search .resultNumberSet,
+#product_search .resultSort{
+	float:right;
+	margin-left:16px;	
+}
+
+/* 検索 */
+
+#searchTable td{
+	background:#fff;
+	padding:6px;
+}
+#searchTable,#searchTable th,#searchTable td{
+	border-color:#bfbfbf;
+}
+#searchTable input[type="text"],
+#searchTable select{
+	padding:2px;	
+}
+.inputList li{
+	float:left;
+}
+.type3 li{
+	width:15%;
+}
+.type4 li{
+	display:inline;
+	margin-right:16px;
+}
+#searchTable a{
+	text-decoration:underline;	
+}
+
+#tableWrap{
+	width:100%;
+	height:auto;
+	position:relative;	
+}
+#tableWrap .selectWindowOpenDisplayItem img{
+	position:absolute;
+	right:-82px;
+	top:-4px;	
+}
+.searchBtn{
+	background:url(../images/product/keyword/searchBtn.png) no-repeat;
+	width:120px;
+	height:32px;
+	cursor:pointer;	
+	border:0;
+	text-indent:-9999em;
+}
+.searchBtn:hover{
+	filter: alpha(opacity=75);
+	-moz-opacity:0.75;
+	opacity:0.75;
+}
+
+#searchResult{
+	background:#fff;
+}	
+#searchResult th,#searchResult td{
+	padding:6px;	
+}
+#searchResult td{
+	text-align:center;	
+}
+#searchResult thead th{
+	white-space: nowrap;	
+}
+#searchResult .spaceN{
+	padding:0;	
+}
+#searchResult .itemWrap{
+	width:160px;	
+}
+#searchResult .itemImg{
+	float:left;
+	width:45px;	
+}
+#searchResult .itemImg img{
+	width:45px;	
+}
+#searchResult .itemName{
+	margin-left:55px;	
+}
+
+
+
+#searchResult .stockN{
+	color:#cc0000;	
+}
+
+label,select{
+	cursor:pointer;	
+}
+.inputWid60{
+	width:60px;	
+}
+.disabled{
+	filter: alpha(opacity=40);
+	-moz-opacity:0.4;
+	opacity:0.4;
+}
+
+/* edit */
+#selectCategoryWindow{
+	background:#fff;	
+}
+#resultItem{
+	margin-bottom:32px;	
+}
+#itemEditMode .leadText,
+#itemEditMode #searchArea,
+#itemEditMode #searchResultArea{
+	filter: alpha(opacity=20);
+	-moz-opacity:0.2;
+	opacity:0.2;
+	zoom:1;	
+}
+#resultItemHead p{
+	float:left;	
+}
+#resultItemHead ul{
+	float:right;	
+	text-align:right;
+}
+#resultItemHead li{
+	display:inline;	
+	padding-left:4px;
+}
+#resultItemHead li img{
+	margin-right:3px;	
+}
+
+#itemEditMode .itemListWrap{
+	padding:8px;	
+}
+#presentList{
+	background:#fee9b7;
+    border:1px solid #edca61; 	
+}
+#presentList h3{
+	color:#e8711c;	
+}
+#additemList{
+	border:1px dashed #ccc;
+	background:#eee;	
+}
+
+
+#itemEditMode .itemList{
+	width:100%;
+	margin-top:8px;
+	height:45px;
+}
+#itemEditMode .itemList li{
+	float:left;
+	margin-right:4px;
+}
+#itemEditMode .itemList li.lastChild{
+	margin-right:0;	
+}
+#itemEditMode .itemList a {
+	cursor:move;
+}
+#itemEditMode .itemList div a{
+	display:block;
+	width:47px;
+	height:45px;
+	background:url(../images/product/keyword/itemList.png) no-repeat 0 0;
+	overflow:hidden;
+	_zoom:1;
+}
+#itemEditMode #presentList .itemList div a:hover,
+#itemEditMode #additemList .itemList div a:hover{
+	background-position:0 -45px;
+}
+.clearfix:after,
+.to_manual:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix,
+* html .to_manual{ zoom: 1; } /* IE6 */
+
+*:first-child+html .clearfix,
+*:first-child+html .to_manual{ zoom: 1; } /* IE7 */
+
+th{
+	width: 127px;
+}
+.mainContents .alignC{
+    text-align:center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

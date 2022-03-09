@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+p.to_manual,p.to_boardDesign {
+    float:right;
+    width:147px;
+}
+
+p.to_manual2 {
+    float:right;
+    width:147px;
+    padding-right:10px;
+}
+
+p.to_manual:after,p.to_boardDesign:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+p.to_manual2:after {
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+p.to_manual a#link_manual {
+    display:block;
+    width:147px;
+    height:32px;
+    background:url("../images/manualBtn.png") no-repeat;
+    text-indent:-9999em;
+    margin:0 2px 10px 0;
+}
+
+p.to_manual a#link_manual:hover {
+    background:url("../images/manualBtn.png") no-repeat;
+    filter: alpha(opacity=80);
+    -moz-opacity:0.8;
+    opacity:0.8;
+}
+
+p.to_manual2 a#link_manual {
+    display:block;
+    width:147px;
+    height:32px;
+    background:url("../images/manualBtn.png") no-repeat;
+    text-indent:-9999em;
+    margin:0 2px 10px 0;
+}
+
+p.to_manual2 a#link_manual:hover {
+    background:url("../images/manualBtn.png") no-repeat;
+    filter: alpha(opacity=80);
+    -moz-opacity:0.8;
+    opacity:0.8;
+}
+
+.clear{
+    clear:both;
+}
+
+
+/*20110301追加*/
+p.to_manual a#link_manual.mgnB0{
+    display:block;
+    width:147px;
+    height:32px;
+    background:url("../images/manualBtn.png") no-repeat;
+    text-indent:-9999em;
+    margin:0 2px 0 0;
+}
+
+p.to_manual a#link_manual.mgnB0:hover {
+    filter: alpha(opacity=80);
+    -moz-opacity:0.8;
+    opacity:0.8;
+}

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+#product_delete .type4 li {
+    display: inline;
+    margin-right: 16px;
+}
+
+#product_delete .resultNumber{
+	float:left;
+}	
+#product_delete .resultNumberSet,
+#product_delete .resultSort{
+	float:right;
+	margin-left:16px;	
+}
+
+#product_delete #searchResult th,#product_delete #searchResult td{
+	padding:6px;	
+}
+#product_delete #searchResult td{
+	text-align:center;	
+}
+#product_delete #searchResult thead th{
+	white-space: nowrap;	
+}
+#product_delete #searchResult .spaceN{
+	padding:0;	
+}
+#product_delete #searchResult .itemWrap{
+	width:160px;	
+}
+#product_delete #searchResult .itemImg{
+	float:left;
+	width:45px;	
+}
+#product_delete #searchResult .itemImg img{
+	width:45px;	
+}
+#product_delete #searchResult .itemName{
+	margin-left:55px;
+	text-align:left;	
+}
+#product_delete #searchResult .stockN{
+	color:#cc0000;	
+}

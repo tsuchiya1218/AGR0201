@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+#googleSpSwitch, #amazonSwitch {
+  width:640px;
+}
+#googleSpSwitch {
+  margin: 24px 0 8px;
+}
+#amazonSwitch {
+  margin: 16px 0 8px;
+}
+.howtoGoogle{
+	border-top:1px dashed #999;
+	padding-top:8px;
+	line-height:1.5;
+}
+#partner_table strong{
+	color:#ff0000;
+	font-weight:bold;	
+	margin-left:4px;
+}
+#partner_table{
+	width:95%;
+	background:#fff0d1;
+	border:2px solid #c9c9c9;
+	overflow:hidden;
+	_zoom:1;
+}
+#partner_table .inner{
+	margin:16px;	
+}
+#partner_table p{
+	text-align:left;	
+}
+#googleInput{
+	border-collapse:collapse;	
+	width:100%;
+}
+#googleInput input{
+	padding:2px;	
+}
+#googleInput th,#googleInput td{
+	border:1px solid #dadada;
+	padding:4px;	
+	text-align:left;
+	background:#fff;
+}
+#googleInput .innerTitle span{
+	margin-left:8px;
+	font-weight:normal;	
+}
+#googleInput th{
+	background:#f0f0f0;
+	font-size:9pt;
+	font-weight:normal;
+	width:120px;
+	text-align:right;
+}
+#googleInput th img{
+	margin-left:4px;
+	vertical-align:middle;	
+}
+#googleInput .innerTitle img{
+	margin-left:2px;
+	margin-right:2px;	
+}
+#googleInput td span{
+	margin-left:4px;
+	font-size:11px;
+}
+#googleInput textarea{
+	width:400px;
+	font-size:9pt;	
+}
+#googleInput .innerTitle{
+	width:100%;
+	background:#888;
+	color:#fff;
+	text-align:left;	
+	font-weight:bold;
+}
+#googleInput .requiredTr th,
+#googleInput .requiredTr td{
+	background:#FEECEC;	
+}
+#googleInput .required{
+	background:#53A9F1;	
+}
+#googleInput .selectRequiredTr th,
+#googleInput .selectRequiredTr td{
+	background:#e3ebf1;	
+}
+#googleInput .requiredStrong{
+	color:#53A9F1;	
+}
+.focus{
+	color:#969696;	
+}
+
+/* ポップアップ */
+#popup{
+	width:700px;
+	margin:14px auto;	
+}
+#popup em{
+	font-style:normal;
+	color:#ff0000;	
+}
+#popup #ctgyList{
+	margin-top:1px;	
+}
+#popup #ctgyList td table{
+	margin-bottom:5px;	
+}
+#popup img{
+	vertical-align:middle;	
+}
+#popup .btnArea{
+	text-align:center;	
+}
+#popup .search{
+	border-top:1px dashed #999;
+	margin-top:24px;
+}
+#popup .searchBox img{
+	margin-left:6px;
+	margin-top:-2px;	
+}
+#popup .searchBox input{
+	border:1px solid #888;	
+	padding:3px 4px;
+}
+#popup .search table{
+	border-collapse: collapse;
+	width:100%;
+	border:1px solid #999;
+	margin-top:8px;
+}
+#popup .search table thead th{
+	background:#444;
+	color:#fff;	
+	font-size:12px;
+	padding:4px 6px;
+}
+#popup .search table th,
+#popup .search table td{
+	padding:6px;
+	vertical-align:middle;
+}
+#popup .search table th input{
+	margin:0;
+}
+#popup .search table tbody th{
+	border-right:1px solid #999;
+	background:#eee;	
+}
+#popup .search .btnArea{
+	margin-top:16px;	
+}
+#popup a img{
+	border:none;	
+}
+	

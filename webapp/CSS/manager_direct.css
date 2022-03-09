@@ -1,0 +1,1825 @@
+@charset "utf-8";
+
+
+/* CSS Document */
+input, select {
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: inherit;
+}
+
+.line {
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.break {
+	page-break-before: always;
+}
+
+.lims {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+}
+
+.acj20 {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	line-height: 18pt
+}
+
+.acj11 {
+	font-size: 11pt;
+	font-family: ＭＳ Ｐゴシック;
+	line-height: 18pt;
+	color: #9D0037
+}
+
+.acj12 {
+	font-size: 11pt;
+	font-family: ＭＳ Ｐゴシック;
+	line-height: 18pt;
+	color: #113871
+}
+
+.acj13 {
+	font-size: 11pt;
+	font-family: ＭＳ Ｐゴシック;
+	line-height: 18pt;
+	color: #9D0039
+}
+
+.lims2 {
+	font-size: 12pt;
+	font-family: ＭＳ Ｐゴシック;
+}
+
+.big {
+	font-size: 12pt;
+	font-family: ＭＳ Ｐゴシック;
+	color: #3D3D3D
+}
+
+body {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	color: #3D3D3D;
+	background: #F9F9F9;
+	margin: 0;
+}
+
+input {
+	font-size: 9pt;
+}
+
+input[type="text"], textarea {
+	margin: 0;
+	padding: 4px !important;
+	box-sizing: border-box;
+}
+
+.jbutton {
+	cursor: pointer;
+	background-color: #F0EEEC;
+	text-align: center;
+}
+
+form {
+	margin: 0px;
+}
+
+.bdj {
+	font-size: 9pt;
+	line-height: 130%
+}
+
+td {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	color: #3D3D3D;
+}
+
+font {
+	font-size: 10pt;
+	line-height: 11pt
+}
+
+a:active, a:link, a:visited {
+	text-decoration: none;
+	color: #3D3D3D;
+	font-size: 9pt
+}
+
+a.bl:link, a.bl:active, a.bl:visited {
+	text-decoration: underline;
+	color: #0054A6;
+}
+
+a.bl:hover {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-size: 9pt;
+	color: #FF0000
+}
+
+.box {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	width: 70px;
+	height: 18px;
+	color: #0A446C;
+	border-style: 1 solid #3D3D3D;
+}
+
+.box2 {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	width: 120px;
+	height: 18px;
+	color: #0A446C;
+	border-style: 1 solid #458CCC;
+}
+
+.box3 {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	width: 250px;
+	height: 18px;
+	color: #0A446C;
+	border-style: 1 solid #458CCC;
+}
+
+.file {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	width: 250px;
+	height: 18px;
+	color: #0A446C;
+	border-style: 1 solid #3D3D3D;
+}
+
+.file2 {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	width: 340px;
+	height: 18px;
+	color: #0A446C;
+	border-style: 1 solid #3D3D3D;
+}
+
+.file3 {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	width: 500px;
+	height: 18px;
+	color: #0A446C;
+	border-style: 1 solid #3D3D3D;
+}
+
+.nobox {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	color: #0A446C;
+	border-style: 1 solid #3D3D3D;
+}
+
+.nobox2 {
+	BACKGROUND: #e1e1e1;
+	BORDER-BOTTOM: #e1e1e1 1px solid;
+	BORDER-LEFT: #e1e1e1 1px solid;
+	BORDER-RIGHT: #e1e1e1 1px solid;
+	BORDER-TOP: #e1e1e1 1px solid;
+	COLOR: #ff5700;
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: bold;
+	TEXT-ALIGN: right;
+	VERTICAL-ALIGN: middle;
+	font-family: MS Pゴシック;
+}
+
+.nobox3 {
+	BACKGROUND: #f5f5f5;
+	BORDER-BOTTOM: #f5f5f5 1px solid;
+	BORDER-LEFT: #f5f5f5 1px solid;
+	BORDER-RIGHT: #f5f5f5 1px solid;
+	BORDER-TOP: #f5f5f5 1px solid;
+	COLOR: #ff5700;
+	FONT-SIZE: 9pt;
+	FONT-WEIGHT: bold;
+	TEXT-ALIGN: right;
+	VERTICAL-ALIGN: middle;
+	font-family: MS Pゴシック;
+}
+
+.sms {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	color: #0A446C;
+	border-style: 1 solid #88FF00;
+	background-color: #88FF00;
+}
+
+.area {
+	font-size: 9pt;
+	font-family: ＭＳ Ｐゴシック;
+	width: 450px;
+	background-color: #FFFFFF;
+	height: 250px;
+	color: #0A446C;
+	border-style: 1 solid #458CCC;
+	scrollbar-face-color: #ffffff;
+	scrollbar-shadow-color: #458CCC;
+	scrollbar-highlight-color: #DAEDFE;
+	scrollbar-3dlight-color: #ffffff;
+	scrollbar-darkshadow-color: #ffffff;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #458CCC;
+}
+
+.sele {
+	background-color: #F0F6FF;
+	border-style: solid 0 #90C0FF;
+	font-size: 9pt;
+	color: #0072BC;
+	font-family: ＭＳ Ｐゴシック;
+}
+
+.hidden {
+	text-align: right;
+	background:#FFFFFF;
+	font-size: 9pt;
+	border-style: 0;
+}
+
+.hidden2 {
+	text-align: left;
+	background:#FFFFFF;
+	font-size: 9pt;
+	color: #C03B8A;
+	border-style: 0;
+}
+
+.box_alert {
+	width: 164px;
+	border: 1px solid #999999;
+	background-color: #FF0000;
+	padding: 2px;
+	text-align: center;
+	margin-bottom: 10px;
+	line-height: 16px;
+	white-space: nowrap;
+	color: #fff;
+}
+
+.box_status {
+	margin: 5px 8px;
+	padding: 4px;
+	border: 1px solid #999;
+}
+
+#plan {
+	background: #feecec;
+	border: 2px solid #f4abab;
+}
+
+#plan img, #ipStatus img {
+	margin-top: 3px;
+}
+
+#leftContents #shopInfo .fontBold {
+	font-weight: bold;
+}
+
+#leftContents #shopInfo .fontS {
+	font-size: 10px;
+}
+
+#leftContents #shopInfo .fontM {
+	font-size: 13px;
+}
+
+#leftContents #shopInfo .fontL {
+	font-size: 16px;
+}
+
+#leftContents #shopInfo .colNavy {
+	color: #0073b4;
+}
+
+#leftContents #shopInfo .update-date {
+	margin: 5px 0;
+}
+
+#leftContents #shopInfo p.errorMsg {
+	color: #ff0000;
+	line-height: 1.5;
+	margin: 5px 5px 0 5px;
+	font-weight: bold;
+}
+
+#leftContents #shopInfo p.errorMsg img {
+	margin: 0 2px 0 0;
+	vertical-align: top;
+}
+
+#leftContents #shopInfo p.errorCard {
+	text-align: right;
+}
+
+#leftContents #shopInfo p.errorCard a {
+	color: #333;
+}
+
+#ipStatus {
+	background: #ededed;
+	border: 2px solid #999;
+}
+
+.box_status div {
+	border-bottom: 1px dotted #666;
+	padding: 3px;
+	line-height: 1.4;
+	position: relative;
+	text-align: left;
+}
+
+#shopName, #shopUrl {
+	margin: 5px 0;
+	padding: 0;
+}
+
+.box_status em {
+	font-style: normal;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.box_status em#blue {
+	color: #0073b4;
+}
+
+#leftContents #plan img {
+	position: relative;
+	margin-bottom: 3px;
+}
+
+#webftp, #mailplus, #imghosting, #gigaplus, #ssl {
+	background: #fff6e2;
+	position: relative;
+	width: 157px;
+}
+
+#webftp img, #mailplus img, #imghosting img, #gigaplus img, #ssl img {
+	position: absolute;
+	right: 0;
+	top: 3px;
+}
+
+#ssl {
+	border-bottom: none;
+}
+
+/* 100115 アイテムポスト全出し */
+#leftContents #leftLink {
+	margin: 5px 0 0;
+	font-size: 11px;
+}
+
+#leftContents #leftLink a {
+	font-size: 11px;
+}
+
+#leftContents a:link,
+#leftContents a:visited,
+#leftContents a:active {
+	font-size: 12px;
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+#leftContents a:hover {
+	font-size: 12px;
+	color: #ff0000;
+	text-decoration: none;
+}
+
+#leftIp {
+	width: 170px;
+	text-align: left;
+	font-size: 11px;
+	margin: 5px 0 10px;
+	color: #0073b4;
+}
+
+#leftIp a {
+	display: block;
+}
+
+#leftIp a:link,
+#leftIp a:visited,
+#leftIp a:active {
+	font-size: 11px;
+	text-align: right;
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+#leftIp a:hover {
+	font-size: 11px;
+	text-decoration: none;
+}
+
+/* ▲100115 アイテムポスト全出し▲ */
+
+ul.default {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+
+ul li.listImg {
+	margin-top: 10px;
+}
+
+
+ul li.flLeft {
+	float: left;
+}
+
+/* 090608 left*/
+
+div#pay_confirm {
+	width: 164px;
+	border: 2px solid #feadad;
+	padding: 4px;
+	text-align: left;
+	white-space: nowrap;
+	margin-top: 6px;
+	line-height: 16px;
+}
+
+div#pay_confirm p {
+	margin: 0 10px;
+}
+
+.boxRed_bd {
+	background: #FEECEC;
+	border: 1px solid #F4ABAB;
+	padding: 8px;
+	line-height: 1.5;
+}
+
+/**************************
+
+ 画像の装飾
+
+***************************/
+
+a img.frmBrder {
+	border: 10px solid #f3f3f3;
+}
+
+a:hover img.frmBrder {
+	border: 10px solid #e3e3e3;
+}
+
+a:hover img.overAlpha {
+	filter: alpha(opacity=85);
+	-moz-opacity: 0.85;
+	opacity: 0.85;
+}
+
+div.imgBox {
+	margin: 0 auto;
+	width: 540px;
+}
+
+.pdd {
+	padding: 10px 5px 0 5px;
+}
+
+#advice {
+	width: auto;
+	z-index: 0;
+	background: url(/makeshop/newmanager/images/bg_1point.gif) no-repeat;
+	border: dotted 2px #CCC;
+	font-size: 12px;
+	float: left;
+	white-space: nowrap;
+}
+
+#advice p {
+	margin: 30px 10px 10px;
+	line-height: 16px;
+}
+
+#advice p a:link {
+	color: 336699;
+	text-decoration: underline;
+}
+
+#advice p a:visited {
+	color: 336699;
+	text-decoration: underline;
+}
+
+div#banner {
+	width: 400px;
+	margin: 10px auto 0;
+}
+
+div#banner img {
+	margin: 0 auto 2px;
+}
+
+h3#top_newinfo {
+	margin: 10px auto;
+}
+
+ul.top_newinfo {
+	width: 450px;
+	margin: 4px 0;
+}
+
+ul.top_newinfo li {
+	width: 450px;
+	text-align: left;
+	margin: 4px auto;
+	border-bottom: 1px dotted #999;
+	clear: both;
+	line-height: 16px;
+	padding-bottom: 3px;
+	background: url(/makeshop/newmanager/images/notice_dot.gif) no-repeat left;
+	list-style: none outside;
+	text-indent: 14px;
+}
+
+ul.top_newinfo li img {
+	vertical-align: baseline;
+	border: 0;
+}
+
+img#atoBanner {
+	float: left;
+	border: 0;
+	margin: 15px 0 10px 24px;
+}
+
+
+/* top閉店状態 */
+
+p#shopClose a {
+	color: #ff0000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p#shopClose a:hover {
+	text-decoration: none;
+}
+
+p#shopClose span {
+	font-size: 10px;
+}
+
+/*  onoff　090925  */
+
+/*  onoff｡｡090925  */
+img {
+	border: none;
+}
+
+table#onoff {
+	width: 584px;
+	margin: 10px 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-left: 1px solid #ccc;
+	border-top: 4px #dadada solid;
+}
+
+table#onoff th, table#onoff td {
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 10px;
+	line-height: 1.4;
+}
+
+table#onoff th {
+	background: #f0f0f0;
+	text-align: left;
+	font-size: 11pt;
+
+}
+
+table#onoff th.on {
+	width: 40%;
+}
+
+table#onoff th input {
+	margin-right: 7px;
+}
+
+table#onoff td em {
+	font-style: normal;
+	color: #e62929;
+}
+
+p#caution {
+	margin: 5px 0 30px;
+	color: #468dab;
+}
+
+
+/* 100122 TOP RENEWAL */
+
+#manager_info {
+	background: #fff;
+	border-right: 1px solid #999;
+}
+
+#top_mainContents {
+	text-align: center;
+	margin: 20px 0;
+	width: 496px;
+}
+
+.right {
+	text-align: right;
+}
+
+.close_alert {
+	text-align: left;
+	padding: 4px 12px;
+}
+
+.topBanner_main {
+	margin: 10px auto;
+}
+
+#topBanner {
+	width: 440px;
+	padding: 5px;
+	background: #eee;
+	margin: 0 auto;
+}
+
+#topInfo {
+	margin: 20px 23px 0;
+	padding: 0;
+	width: 450px;
+}
+
+#topInfo #info_title {
+	position: relative;
+	width: 450px;
+	height: 24px;
+	margin: 0 0 5px 0;
+}
+
+#topInfo #more {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+}
+
+#topInfo ul {
+	padding: 0;
+	margin: 0;
+	width: 450px;
+}
+
+#topInfo li {
+	text-align: left;
+	border-bottom: 1px dashed #ccc;
+	padding: 3px;
+	list-style: none;
+	margin: 0;
+}
+
+#topInfo li img {
+	margin-right: 5px;
+}
+
+/* マガジン */
+#makeshopMagazineNews li span {
+	margin-right: 8px;
+	color: #888;
+}
+
+#makeshopMagazineNews li img {
+	margin-left: 4px;
+}
+
+#top_inBox {
+	width: 450px;
+	margin: 0px auto;
+	padding: 20px 0;
+}
+
+table.status {
+	margin-bottom: 7px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+table.status th, table.status td {
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 3px 0;
+}
+
+table.status th.title {
+	background: #E6E6E6;
+	text-align: center;
+	font-size: 13px;
+}
+
+table.status th#ip {
+	padding-left: 60px;
+}
+
+table.status th#ip img {
+	position: relative;
+	top: 2px;
+	left: 4px;
+}
+
+table.status td {
+	background: #fff;
+}
+
+table.status td.result {
+	text-align: right;
+	color: #0073B4;
+	padding-right: 8px;
+}
+
+table.status .lastMonth,
+table.status .thisMonth {
+	text-align: center;
+	font-weight: bold;
+}
+
+table.status .lastMonth {
+	background: #fef8e8;
+	color: #444;
+}
+
+table.status .thisMonth {
+	background: #ffe5e5;
+	color: #e42a2a;
+}
+
+table.status .lastValue,
+table.status .thisValue {
+	text-align: center;
+}
+
+table.status .lastValue {
+	color: #666;
+}
+
+table.status .thisValue {
+	color: #e42a2a;
+}
+
+table#itempostGraph thead th {
+	background: #e6e6e6;
+	width: 450px;
+}
+
+#itempostGraph thead th div {
+	position: relative;
+}
+
+#itempostGraph thead th div img {
+	position: absolute;
+	right: 5px;
+	top: 1px;
+}
+
+#colorIcon td {
+	border: none;
+	padding: 0;
+}
+
+#visitor {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#visitor tr {
+	background: #595858;
+	color: #fff;
+}
+
+#visitor td {
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+#visitor th {
+	font-size: 13px;
+	height: 18px;
+}
+
+/* GMOとくとくポイント*/
+
+div#toku-p {
+	text-align: center;
+	border: 2px solid #fcda73;
+	width: 450px;
+	padding: 10px 0;
+	margin: 10px auto;
+	background: #fef6df
+}
+
+#toku-p p {
+	text-align: left;
+	width: 420px;
+	margin: 0 auto 5px;
+}
+
+#toku-p img {
+	margin: 5px auto;
+}
+
+#toku-p dl {
+	width: 270px;
+	clear: both;
+	margin: 0 auto;
+}
+
+#toku-p dl dt,
+#toku-p dl dd {
+	text-align: left;
+	line-height: 17px;
+}
+
+#toku-p dl dt {
+	float: left;
+	width: 170px;
+}
+
+span.red {
+	color: #FF0000;
+}
+
+span#status {
+	margin-left: 60px;
+}
+
+#topFaq {
+	margin: 10px auto;
+}
+
+#topFaq img {
+	float: left;
+	width: 102px;
+}
+
+#topFaq ul {
+	float: right;
+	width: 320px;
+	margin: 0;
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: 1px dotted #555;
+	text-align: left;
+}
+
+#topFaq li {
+	float: left;
+	width: 76px;
+	list-style: none;
+	line-height: 18px;
+}
+
+#topFaq li a:link, #topFaq li a:active, #topFaq li a:visited {
+	text-decoration: underline;
+}
+
+#topFaq li a:hover {
+	text-decoration: none;
+}
+
+/* TOP-right */
+
+#manager_top_clock {
+	text-align: center;
+	font-size: 9pt;
+	color: #3D3D3D;
+	margin: 2px 0px;
+}
+
+#rightContents .center {
+	text-align: center;
+}
+
+#rightContents p {
+	margin: 0;
+}
+
+#rightContents .menu {
+	margin: 0 8px;
+}
+
+#rightContents .menu li {
+	text-align: left;
+	background: url(/makeshop/newmanager/images/right_menu_icon_2.gif) no-repeat left 7px;
+	padding-left: 8px;
+	margin-bottom: 3px;
+}
+
+#rightContents #download {
+	margin: 5px auto;
+	background: #eee;
+	width: 60%;
+	text-align: center;
+}
+
+#download li {
+	display: inline;
+}
+
+/* indicator */
+.indicatorList {
+	margin: 10px 0;
+}
+
+.indicatorList dl {
+	width: 170px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.indicatorList dt {
+	float: left;
+	width: 80%;
+	text-align: left;
+}
+
+.indicatorList dd {
+	position: absolute;
+	right: 0;
+	font-weight: bold;
+	color: #0073b4;
+}
+
+.indicatorList img {
+	margin-top: 5px;
+}
+
+.indicatorList a {
+	color: #0073B4;
+	text-decoration: underline;
+}
+
+.indicatorList a:hover {
+	color: #0073B4;
+	text-decoration: none;
+}
+
+/* domainBox */
+div#domainBox {
+	width: 450px;
+	background: url(/makeshop/newmanager/images/domain_search/domainBg2.gif) no-repeat bottom center;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+table#domainSearch {
+	margin: 15px auto 5px auto;
+}
+
+input#domain {
+	border: #b7b4b4 1px solid;
+	padding: 3px;
+	width: 200px;
+	ime-mode: inactive;
+	vertical-align: top;
+	color: #2476a9;
+	font-weight: bold;
+	font-size: 14px;
+	height: 23px;
+}
+
+table#domainChoice {
+	font-weight: bold;
+	font-size: 12px;
+	margin: 0px auto;
+	background: #ececec;
+	padding: 3px 7px;
+}
+
+div#domain_search_message {
+	width: 370px;
+	text-align: center;
+	margin: 10px auto 0px auto;
+}
+
+div#domain_search_result_list {
+	width: 370px;
+	display: none;
+	text-align: center;
+	margin: 10px auto;
+	background: #eee;
+}
+
+div#domain_search_next_button {
+	width: 410px;
+	display: none;
+	text-align: center;
+	margin: 0px auto 5px auto;
+}
+
+div#domainBottom {
+	height: 10px;
+}
+
+/* 結果 */
+.domain_search_result_table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.domain_search_result_table td {
+	border-bottom: 1px dashed #bbb;
+	padding: 6px 3px;
+}
+
+.domain_search_result_table .domainY {
+	color: #108a47;
+}
+
+.domain_search_result_table .domainN {
+	color: #ff0000;
+}
+
+.domain_search_result_table em {
+	margin-right: 3px;
+	font-style: normal;
+}
+
+.domainContact a {
+	color: #0073b4;
+	text-decoration: underline;
+}
+
+.domainContact a:hover {
+	text-decoration: none;
+}
+
+.domainContact span {
+	display: block;
+	color: #1272A8;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 2px;
+}
+
+.domainContact img {
+	vertical-align: middle;
+	margin-right: 2px;
+	width: 12px;
+	height: auto;
+}
+
+
+
+/*  20100210 paycard shida */
+
+#popupWindow {
+	position: absolute;
+	z-index: 100;
+	visibility: hidden;
+	top: 250px;
+	left: 250px;
+	width: 580px;
+	border: 2px solid #bbb;
+	background: #fff;
+}
+
+#popupWindow p {
+	margin: 10px;
+	margin-top: 0;
+	line-height: 1.3
+}
+
+/*  20100512 top renewal shida */
+#leftTd {
+	border-right: 1px solid #999;
+}
+
+#leftContents {
+	width: 200px;
+	background: #eee;
+	height: 100%;
+	padding-bottom: 0;
+	border-bottom: 1px solid #999;
+}
+
+#leftContents .section {
+	background: #fff;
+	margin: 5px;
+	text-align: center;
+	border: 1px solid #b6b6b6;
+}
+
+
+
+#leftContents .leftMenu li {
+	border-bottom: 1px dashed #999;
+	padding: 5px;
+	line-height: 1.5
+}
+
+#leftContents .leftMenu li a {
+	color: #0073B4;
+	text-decoration: underline;
+}
+
+#leftContents .leftMenu li a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+#leftContents .leftMenu li:last-child {
+	border-bottom: none;
+}
+
+#shopUrl a:link,
+#shopUrl a:visited,
+#shopUrl a:active {
+	font-weight: bold;
+	color: #163861;
+}
+
+#shopUrl a:active {
+	font-weight: bold;
+	color: #163861;
+	text-decoration: none;
+}
+
+#leftContents #shopInfo p {
+	text-align: center;
+}
+
+#rightContents {
+	border-left: 1px solid #999;
+}
+
+#leftContents img,
+#rightContents img {
+	border: 0;
+	vertical-align: middle;
+}
+
+#leftContents p {
+	margin: 5px 8px;
+}
+
+#leftContents #shopInfo .left {
+	text-align: left;
+}
+
+#leftContents h3,
+#rightContents h3 {
+	margin: 0;
+}
+
+#leftContents ul, #leftContents li,
+#rightContents ul, #rightContents li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+}
+
+#rightContents .section {
+	text-align: left;
+}
+
+#rightContents .pad5 {
+	padding: 5px 0;
+}
+
+#rightContents .twitterbtn {
+	margin: 10px 0 20px;
+}
+
+#rightContents #rightService li {
+	height: 48px;
+}
+
+#rightContents #helpList {
+	margin: 8px 0 0 8px;
+}
+
+#helpList li {
+	background: url(/makeshop/newmanager/images/right_menu_icon_2.gif) no-repeat left;
+	padding-left: 10px;
+	line-height: 1.7
+}
+
+#rightContents .releaseSchedule {
+	margin-bottom: 24px;
+}
+
+#rightContents #rightBtn {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#rightContents #rightBtn img {
+	margin-bottom: 5px;
+}
+
+#rightContents #media {
+	border-top: 1px dotted #999;
+	text-align: center;
+	padding: 10px 5px 5px 5px;
+}
+
+#footer {
+	background: #414141;
+	text-align: center;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 5px 0;
+}
+
+.mgn_btm5 {
+	margin-bottom: 5px;
+}
+
+.mgn5 {
+	margin: 5px 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* 20100524 largeBanner */
+
+#largeBanner {
+	position: absolute;
+	top: 8px;
+	left: 892px;
+}
+
+/* 20110412 sideBanner */
+
+#sideBanner {
+	position: absolute;
+	top: 8px;
+	left: 181px;
+	_left: 91px;
+}
+
+/* for IE6 */
+* html .clearfix {
+	display: inline-block;
+}
+
+/* for IE7 */
+*+html .clearfix {
+	display: inline-block;
+}
+
+/* 110307 */
+.linkRight {
+	text-align: right;
+	margin: 16px 16px 16px 0;
+}
+
+.linkRight img {
+	margin-right: 6px;
+}
+
+.linkRight a:link {
+	text-decoration: underline;
+	color: #245fbb;
+}
+
+.linkRight a:visited {
+	text-decoration: underline;
+	color: #551A8B;
+}
+
+.linkRight a:hover {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+.linkRight a:active {
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+/* 161130 */
+
+#rightContents p.improvePjt {
+	margin-bottom: 8px;
+}
+
+#rightContents p.improvePjt a {
+	display: block;
+}
+
+#rightContents p.improvePjt a:hover {
+	filter: alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+
+/*110930*/
+
+.posiRe {
+	position: relative;
+}
+
+.posiRe .editorManual a {
+	position: absolute;
+	right: 0;
+	top: 0px;
+	text-indent: -9999em;
+	background: url(/makeshop/newmanager/images/design/manual_editor.png) no-repeat left center;
+	display: block;
+	width: 142px;
+	height: 14px;
+}
+
+.posiRe .assistManual a {
+	position: absolute;
+	right: 0;
+	top: 0px;
+	text-indent: -9999em;
+	background: url(/makeshop/newmanager/images/design/manual_assist.png) no-repeat left center;
+	display: block;
+	width: 142px;
+	height: 14px;
+}
+
+#backupBox {
+	background: url(/makeshop/newmanager/images/design/bg_backup.png) repeat-x left bottom;
+	margin: 32px auto 0;
+	padding: 0 8px 8px 0;
+	text-align: right;
+	width: 745px;
+}
+
+#backupBox .btnLoad input {
+	background: url(/makeshop/newmanager/images/design/btn_load.png) no-repeat left center;
+	border: 0;
+	text-indent: -9999em;
+	width: 147px;
+	height: 21px;
+	cursor: pointer;
+}
+
+#backupBox .btnBackup input {
+	background: url(/makeshop/newmanager/images/design/btn_backup.png) no-repeat left center;
+	border: 0;
+	text-indent: -9999em;
+	width: 147px;
+	height: 21px;
+	cursor: pointer;
+}
+
+#backupBox p {
+	margin: 4px 0 0 0;
+	font-size: 11px;
+	color: #666;
+}
+
+#backupBox img {
+	border: 0;
+}
+
+/* 120507 アイテムポストキャンペーン */
+
+#ipCampaign p {
+	margin: 0;
+}
+
+#ipCampaign .balance {
+	margin-top: 2px;
+	text-decoration: underline;
+}
+
+#ipCampaign .balance em {
+	font-size: 14px;
+}
+
+/**************************
+
+　価格com用 メンテナンス
+
+***************************/
+#maintenance {
+	background: #b80000;
+	color: #fff;
+	padding: 8px;
+	margin: 0 0 16px 16px;
+}
+
+#maintenance p {
+	margin: 0;
+	padding: 0;
+}
+
+.page-head {
+	margin: 16px 24px;
+	position: relative;
+}
+
+.page-head .topic-path {
+	text-align: left;
+	margin-bottom: 40px;
+	line-height: 32px;
+	padding: 0;
+}
+
+.page-head .topic-path li {
+	display: inline;
+}
+
+.page-head .topic-path li a {
+	margin-right: 0;
+}
+
+.page-head .topic-path li:last-child a {
+	color: #0054a6;
+	font-weight: bold;
+}
+
+.page-head .topic-path li a:hover {
+	color: #0054a6;
+}
+
+.page-head .to_manual {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: 0;
+}
+
+/**************************
+
+　トップ　サービスリスト
+
+***************************/
+
+.topSection {
+	text-align: left;
+	margin-bottom: 32px;
+}
+
+.serviceTitle {
+	font-size: 16px;
+	border-bottom: 1px dotted #c9c9c9;
+	padding-bottom: 6px;
+}
+
+.topSupport {
+	margin-top: 40px;
+}
+
+.serviceList {
+	padding: 0;
+	margin: 0;
+}
+
+.serviceList li {
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+	width: 32.5%;
+	margin-bottom: 8px;
+}
+
+.serviceList li a {
+	display: block;
+	padding: 8px 0;
+	color: #333;
+	text-align: center;
+	border-radius: 3px;
+	border: 1px solid #999;
+	background: #eee;
+}
+
+.serviceList li a:hover {
+	text-decoration: none;
+	background: #666;
+	border-color: #666;
+	color: #fff;
+}
+
+/**************************
+
+　トップ　お役立ちコンテンツ
+
+***************************/
+
+#topHelp {
+	background: #e6e6e6;
+	width: 470px;
+	margin: 16px auto 24px;
+	padding: 16px 9px 10px;
+	box-sizing: border-box;
+}
+
+.helpTitle {
+	margin: 0 auto 8px;
+}
+
+.helpList {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	margin-left: -5px;
+}
+
+.helpList li {
+	float: left;
+	padding: 0;
+	margin-left: 5px;
+	list-style: none;
+}
+
+.helpList li a:hover img,
+.bannerList li a:hover img {
+	filter: alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+}
+
+/**************************
+
+　トップ　バナー
+
+***************************/
+
+.bannerList {
+	margin: 0 auto;
+	width: 470px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.bannerList li {
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin-right: 10px;
+}
+
+.bannerList li:last-child {
+	margin-right: 0;
+}
+
+/**************************
+
+	掲示板・メール　左ナビ
+
+***************************/
+
+.board_menu_smalltitle {
+	height: 28px;
+	background-color: #f7f6ef;
+	border-top: solid 4px #d3d1ad;
+	border-bottom: solid 1px #d3d1ad;
+	box-sizing: border-box;
+	padding-left: 8px;
+}
+
+/**************************
+
+    左ナビ
+
+***************************/
+
+@font-face {
+	font-family: "NotoSansCJKjp-Jxck";
+	font-style: normal;
+	font-weight: 400;
+	src: local("NotoSansCJKjp-Bold.otf"), local("NotoSansJP-Bold.otf"), url("general/font/NotoSansCJKjp-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "NotoSansCJKjp-Jxck";
+	font-style: normal;
+	font-weight: 700;
+	src: local("NotoSansCJKjp-Bold.otf"), local("NotoSansJP-Bold.otf"), url("general/font/NotoSansCJKjp-Bold.woff") format("woff");
+}
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(general/iconfont/MaterialIcons-Regular.eot);
+	/* For IE6-8 */
+	src: local('Material Icons'),
+		local('MaterialIcons-Regular'),
+		url(general/iconfont/MaterialIcons-Regular.woff2) format('woff2'),
+		url(general/iconfont/MaterialIcons-Regular.woff) format('woff'),
+		url(general/iconfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+}
+
+.sidenav {
+	width: 240px;
+	min-height: 100vh;
+	height: 100%;
+	margin: 0;
+	padding: 12px 0 80px;
+	text-align: left;
+	font-feature-settings: "palt";
+	background: #F9F9F9;
+	border-right: solid 1px #D6D6D6;
+	box-sizing: border-box;
+}
+
+.sidenav a {
+	text-decoration: none !important;
+}
+
+.sidenav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sidenav .sidenav-title::before, .sidenav .sidenav-sub-title::before {
+	font-size: 14px;
+	font-family: 'Material Icons';
+	content: "\e315";
+}
+
+.sidenav .sidenav-title::before {
+	position: absolute;
+	top: 0;
+	left: 4px;
+}
+
+.sidenav .sidenav-sub-title::before {
+	position: absolute;
+	top: 0;
+	left: 24px;
+}
+
+.sidenav .sidenav-title.open::before, .sidenav .sidenav-sub-title.open::before {
+	content: "\e313";
+}
+
+.sidenav .sidenav-title, .sidenav .sidenav-sub-title {
+	width: 230px;
+	height: 33px;
+	line-height: 33px;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Noto Sans", "Noto Sans CJK JP", "NotoSansCJKjp-Jxck", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", sans-serif;
+	font-feature-settings: "palt"1;
+	color: #4C4E57;
+	border-radius: 0 6px 6px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.sidenav .sidenav-title {
+	padding: 0 4px 0 20px;
+	position: relative;
+}
+
+.sidenav .sidenav-list-wrap li.sidenav-sub-title {
+	padding: 0 4px 0 40px;
+}
+
+.sidenav .sidenav-list-wrap {
+	display: none;
+}
+
+.sidenav .sidenav-list-wrap.open {
+	display: block;
+}
+
+.sidenav .sidenav-list-item {
+	height: 33px;
+	line-height: 33px;
+	font-size: 13px;
+	font-family: "Noto Sans", "Noto Sans CJK JP", "NotoSansCJKjp-Jxck", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", sans-serif;
+	width: 230px;
+	color: #4c4e57;
+	padding: 0 8px 0 26px;
+	border-radius: 0 6px 6px 0;
+	display: block;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.sidenav .sidenav-list-item.sub-item {
+	padding: 0 8px 0 44px;
+}
+
+.sidenav .sidenav-list-item:hover, .sidenav .sidenav-title:hover, .sidenav .sidenav-sub-title:hover {
+	color: #4c4e57;
+	background: #EBEBEB;
+}
+
+.sidenav .sidenav-list-item:active, .sidenav .sidenav-title:active, .sidenav .sidenav-sub-title:active {
+	color: #4c4e57;
+	background: #dfdfdf;
+}
+
+.sidenav .sidenav-list-item.active {
+	color: #4E6DDE;
+	font-weight: bold;
+	background: #e4e9fa;
+	pointer-events: none;
+}
+
+.sidenav .show-sidenav, .sidenav .close-sidenav {
+	display: none;
+}
+
+/* 開店までの道のり（初心者マーク）*/
+.sidenav .beginner-title-icon {
+	width: 23px;
+	height: 23px;
+	padding-left: 2px;
+	display: inline-block;
+	line-height: 33px;
+	filter: drop-shadow(0 0 1px rgba(86, 78, 87, .5));
+	position: absolute;
+	top: 5px;
+}
+
+.sidenav .beginner-icon {
+	width: 18px;
+	height: 18px;
+	padding-left: 2px;
+	display: inline-block;
+	line-height: 33px;
+	filter: drop-shadow(0 0 1px rgba(86, 78, 87, .5));
+	position: absolute;
+	top: 8px;
+	left: 4px;
+}
+
+.sidenav .sub-item>.beginner-icon {
+	left: 22px;
+}
+
+/* フリープラン使用不可 */
+.sidenav .nofree-menu {
+	color: rgba(86, 78, 87, .5);
+}
+
+.sidenav .nofree-icon {
+	width: 18px;
+	height: 18px;
+	padding-left: 2px;
+	display: inline-block;
+	line-height: 33px;
+	filter: drop-shadow(0 0 1px rgba(86, 78, 87, .25));
+	position: absolute;
+	top: 8px;
+	left: 4px;
+}

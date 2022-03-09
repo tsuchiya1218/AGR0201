@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/**************************************************
+
+    reset
+
+/*************************************************/
+html {
+    overflow-y: scroll;
+}
+body,.selectCategory div,.selectCategory dl,.selectCategory dt,.selectCategory dd,.selectCategory ul,.selectCategory ol,.selectCategory li,.selectCategory h1,.selectCategory h2,.selectCategory h3,.selectCategory h4,.selectCategory h5,.selectCategory h6,.selectCategory pre,.selectCategory form,.selectCategory fieldset,.selectCategory input,.selectCategory textarea,.selectCategory p,.selectCategory blockquote,.selectCategory th,.selectCategory td {
+    margin: 0;
+    padding: 0;
+}
+.selectCategory hr{
+    display: none;
+}
+.selectCategory h1,.selectCategory h2,.selectCategory h3,.selectCategory h4,.selectCategory h5,.selectCategory h6{
+    font-size: 100%;
+    text-align:left;
+}
+.selectCategory img,.selectCategory fieldset {
+    border: 0;
+}
+.selectCategory li {
+    list-style-type: none;
+}
+.selectCategory img{
+    vertical-align:bottom;
+}
+.selectCategory input{
+    vertical-align:middle;
+    margin-right:4px;
+}
+.selectCategory em,.selectCategory strong{
+    font-style:normal;
+}
+/* clearfix */
+.clearfix:after,
+.to_manual:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix,
+* html .to_manual{ zoom: 1; } /* IE6 */
+
+*:first-child+html .clearfix,
+*:first-child+html .to_manual{ zoom: 1; } /* IE7 */
+
+/*--- link */
+
+a:link, a:active , a:visited { text-decoration: none; color:#3D3D3D;} 
+a:hover { text-decoration: underline; color: #FF0000} 
+
+a.bl:link, a.bl:active , a.bl:visited { text-decoration:underline; color:#0054A6;} 
+a.bl:hover { text-decoration:none; color:#0054A6} 
+
+a.rd:link, a.rd:active , a.rd:visited { text-decoration:underline; color:#ff0000;} 
+a.rd:hover { text-decoration:none; color:#ff0000} 
+
+/*--- default */
+body{
+    color: #333;
+    font-size: 12px;
+    font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+    line-height:1.4;
+}
+/* for IE6 */
+* html body {
+    font-size: 75%;
+}
+/* for IE7 */
+*:first-child+html body {
+    font-size: 75%;
+}
+
+table{ font-size:12px;}
+.line {font-size:1px;line-height:1px;}
+
+a:hover img.alpha{
+    filter: alpha(opacity=75);
+  -moz-opacity:0.75;
+  opacity:0.75;
+}
+
+/**************************************************
+
+    defalut style
+
+/*************************************************/
+.selectCategory .mgnT4{
+        margin-top:4px;
+}
+.selectCategory .mgnT8{
+        margin-top:8px;
+}
+.selectCategory .mgnT16{
+        margin-top:16px;
+}
+.selectCategory .mgnT24{
+        margin-top:24px;
+}
+.selectCategory .mgnT32{
+        margin-top:32px;
+}
+.selectCategory .mgnT48{
+        margin-top:48px;
+}
+.selectCategory .mgnT64{
+        margin-top:64px;
+}
+.selectCategory .mgnT96{
+        margin-top:96px;
+}
+.selectCategory .mgnB4{
+        margin-bottom:4px;
+}
+.selectCategory .mgnB8{
+        margin-bottom:8px;
+}
+.selectCategory .mgnB16{
+        margin-bottom:16px;
+}
+.selectCategory .mgnB24{
+        margin-bottom:24px;
+}
+.selectCategory .mgnB32{
+        margin-bottom:32px;
+}
+.selectCategory .mgnB48{
+        margin-bottom:48px;
+}
+.selectCategory .mgnB64{
+        margin-bottom:64px;
+}
+.selectCategory .mgnL4{
+        margin-left:4px;
+}
+.selectCategory .mgnL8{
+        margin-left:8px;
+}
+.selectCategory .mgnL16{
+        margin-left:16px;
+}
+.selectCategory .mgnL24{
+        margin-left:24px;
+}
+.selectCategory .mgnL32{
+        margin-left:32px;
+}
+.selectCategory .mgnR4{
+        margin-right:4px;
+}
+.selectCategory .mgnR8{
+        margin-right:8px;
+}
+.selectCategory .mgnR16{
+        margin-right:16px;
+}
+.selectCategory .mgnR24{
+        margin-right:24px;
+}
+.selectCategory .mgnR32{
+        margin-right:32px;
+}
+.selectCategory .alignC{
+    text-align:center;
+}
+.selectCategory .alignL{
+    text-align:left;
+}
+.selectCategory .alignR{
+    text-align:right;
+}
+.selectCategory .pad8{
+    padding:8px;    
+}
+.selectCategory .pad16{
+    padding:16px;   
+}
+.selectCategory .posiRelative{
+	position:relative;	
+}
+
+/**************************************************
+
+    .selectCategory 枠組み
+
+/*************************************************/
+.selectCategory{
+    width:678px;
+    background:#fff;
+    line-height:1.4;
+}
+.selectCategory .inner{
+    margin:16px 24px;
+    width:630px;
+}
+
+/**************************************************
+
+    text decoration
+
+/*************************************************/
+.selectCategory em{
+    font-weight:bold;
+    padding:0 2px;
+}
+.selectCategory strong{
+    font-weight:bold;
+    color:#ff0000;
+    padding:0 2px;
+}
+.selectCategory .fontBold{
+    font-weight:bold;
+}
+.selectCategory .fontS{
+    font-size:10px;
+}
+.selectCategory .textL{
+    font-size:14px; 
+}
+.selectCategory .colRed{
+    color:#ff0000;
+}
+.selectCategory .colBlue{
+    color:#0054A6;
+}
+.selectCategory .colOrange{
+    color:#F26622;
+}

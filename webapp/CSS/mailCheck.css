@@ -1,0 +1,27 @@
+.check{
+    text-align: center;
+    border:  1px solid black;
+    margin: 10% 30%;
+    padding: 5% 15%;
+}
+table{
+    text-align: center;
+    border:  1px solid black;
+    margin: 8% 25%;
+    padding: 5% 5%;
+}
+table tr td{
+    padding: 25px 0px;
+}
+.changePass{
+    text-align: center;
+    border:  1px solid black;
+    margin: 5% 30%;
+    padding: 2% 15%;
+}
+.mail{
+    text-align: center;
+    border:  1px solid black;
+    margin: 5% 30%;
+    padding: 2% 5%;
+}

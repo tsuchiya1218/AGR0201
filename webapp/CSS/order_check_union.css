@@ -1,0 +1,522 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/**************************************************
+
+    注文検索画面
+
+/*************************************************/
+#union_order{
+    width:100%;
+    min-width:800px;
+}
+#union_order .inner{
+    width:calc(100% - 120px);
+    min-width:760px;
+}
+#union_order #sideBanner{
+    position:absolute;
+    left:1000px;
+    top:51px;
+}
+#union_order .section{
+    margin-bottom:30px;
+}
+#union_order #searchItemTable input[type="text"]{
+    width:200px;
+    padding:2px;
+}
+#union_order #searchItemTable td{
+    padding:6px;
+}
+#union_order .pageSwitch{
+	float:left;
+}
+
+/* Yahoo!口座未登録 */
+#union_order .yahooShoppingAlert{
+    background: #cc0000 url(../images/alertBackground.png) no-repeat left center;
+    color: #fff;
+    padding: 8px 8px 8px 55px;
+}
+
+#union_order .yahooShoppingAlert a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+#union_order .yahooShoppingAlert a:hover{
+    text-decoration: none;
+}
+
+/* ワンクリック */
+#oneClickWrap{
+    position:relative;
+    background:#eee;
+    border:1px dotted #ccc;
+    padding:8px;
+}
+#oneClickWrap .oneClickEditTxt a{
+    text-decoration:underline;
+}
+#oneClickWrap .oneClickEditTxt a:hover{
+    text-decoration:none;
+}
+#oneClickWrap #oneClickEditTxt1{
+    float:right;
+    width:150px;
+}
+#oneClickWrap .oneClickEditTxt span.edit {
+    background: url("../images/order/pencil.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: right;
+    padding-left: 18px;
+    line-height:22px;
+    height:22px;
+    display:block;
+}
+#oneClickWrap #oneClickNewTxt{
+    text-align:center;
+}
+#oneClickWrap #oneClickNewTxt span{
+    float:none;
+    background-position:41.5% 50%;
+}
+#oneClickWrap ul#oneClickContents li {
+    background: url("../images/order/btnNameBg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 27px;
+    margin: 0 4px 4px 0;
+    overflow: hidden;
+    width: 235px;
+}
+#oneClickWrap ul#oneClickContents li span.btnEditName {
+    float: left;
+    width: 160px;
+}
+#oneClickWrap ul#oneClickContents li span {
+    cursor: pointer;
+    display: inline-block;
+    /*float: left;*/
+    height: 27px;
+}
+#oneClickWrap ul#oneClickContents li span.btnEditName span {
+    display: inline;
+    padding: 4px 0 0 2px;
+}
+#oneClickWrap ul#oneClickContents li span.btnEditName img {
+    display: block;
+    float: left;
+}
+#oneClickWrap #oneClick .oneClickEditTxt span.newItem {
+    background: url("../images/order/newItemIcon.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: right;
+    margin-right: 4px;
+    padding-left: 18px;
+}
+#oneClickWrap #oneClick .oneClickEditTxt span.return {
+    background: url("../images/order/returnIcon.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    float: right;
+    padding-left: 18px;
+}
+#oneClick #oneClickContents_m{
+    float:left;
+    width:550px;
+}
+#oneClick #oneClickContents_m li{
+    float:left;
+    margin-right:2px;
+}
+#oneClick #oneClickContents_m li button{
+    cursor:pointer;
+}
+
+/* calendar */
+#calendarWrap #calendarStart,#calendarWrap #calendarEnd{
+    float:left;
+}
+#union_order .orderDate{
+    overflow:hidden;
+    _zoom:1;
+    margin-top:4px;
+    background:#ededed;
+    padding:4px;
+}
+#union_order .orderDate li{
+    float:left;
+    margin-right:6px;
+}
+#union_order .orderDate li.border{
+    border-left:1px dotted #999;
+    padding-left:6px;
+}
+#union_order #Start_Order_Container,
+#union_order #End_Order_Container {
+    display: none;
+    position: absolute;
+}
+
+/* 検索条件項目 */
+#union_order #searchItem{
+    cursor:pointer;
+}
+#union_order .alpha:hover{
+    filter: alpha(opacity=75);
+    -moz-opacity:0.75;
+    opacity:0.75;
+}
+#union_order #searchItemWrap{
+    background:#eee;
+    border:1px solid #ccc;
+    margin-top:-1px;
+    padding:12px 16px;
+}
+#union_order #searchItemSelect li{
+    float:left;
+    width:25%;
+    padding:4px 0;
+}
+#union_order label{
+    cursor:pointer;
+}
+
+/* CSV選択 */
+#union_order #selectCsv{
+    cursor:pointer;
+}
+#union_order #selectClose{
+    position:absolute;
+    right:3px;
+    top:3px;
+    cursor:pointer;
+}
+#union_order #selectCsvWrap{
+    margin-left:190px;
+    width:500px;
+}
+#union_order .selectCsvInner{
+    border:3px solid #ccc;
+    text-align:left;
+    position:relative;
+}
+#union_order .selectCsvInner ul{
+    background:url("../images/order/csvArrow_s.png") no-repeat 45% center;
+}
+#union_order #selectCsvWrap li{
+    float:left;
+    height:62px;
+    width:48%;
+}
+
+/* 一括処理 */
+#union_order .disposeWrap{
+    background:#FBFFD5;
+    border:1px solid #EDD672;
+    position:relative;
+    z-index:0;
+}
+#union_order .selectDispose{
+    float:left;
+    width:35%;
+}
+#union_order .selectedDispose{
+    float:right;
+    width:65%;
+}
+#union_order .selectDispose *{
+    float:left;
+    line-height:40px;
+}
+#union_order .selectedDispose p,#union_order .selectedDispose div{
+    float:left;
+    line-height:40px;
+}
+#union_order .actionDispose{
+    position:absolute;
+    right:8px;
+    top:8px;
+}
+#union_order .selectedDispose .selected{
+    color:#cc0000;
+}
+
+/* 検索結果 */
+#union_order .resultTerms{
+    color:#888;
+    padding:4px 8px;
+    background:#f0f0f0;
+}
+#union_order .resultNumber,#union_order .resultPrice {
+    float: left;
+    margin-top:2px;
+}
+#union_order .resultNumberSet, #union_order .resultSort {
+    float: right;
+    margin-left: 16px;
+}
+#union_order #searchResult{
+    background:#fff;
+    position:relative;
+    z-index:10;
+}
+#union_order #searchResult th{
+    white-space:nowrap;
+}
+#union_order #searchResult th span{
+    font-weight:normal;
+    font-size:11px;
+}
+#union_order #searchResult th,
+#union_order #searchResult td{
+    text-align:center;
+    padding:4px;
+}
+#union_order #searchResult .even td{
+    background:#efefef;
+}
+#union_order #searchResult .integrationOrder td{
+    background:#EBD9EA;
+}
+#union_order #searchResult input{
+    margin-right:0;
+}
+#union_order #searchResult td span{
+    display:block;
+    margin-top:2px;
+}
+#union_order #searchResult input[type="text"]{
+    padding:2px;
+}
+#union_order #searchResult input.hide{
+    border:none;
+    background:none;
+    width:100%;
+    font-size:12px;	
+}
+
+#union_order #searchResult input[name="deli_num"]{
+    width:130px;
+    font-size:12px;	
+}
+#union_order #searchResult .td_date {
+    width: 70px;
+}
+
+/* フラグ */
+#union_order #searchResult .flagList{
+    width:40px;
+}
+#union_order #searchResult .flagList li{
+    float:left;
+    padding:2px;
+}
+
+#union_order #searchResult .jbutton{
+    cursor:pointer;
+    padding:1px 4px;
+    background:#eee;
+    border:1px solid #999;
+}
+
+#union_order #searchResult .jbutton_focus_hover {
+    background:#999;
+    color:#fff;
+}
+
+#union_order #searchResult .jbutton_focus_in {
+    cursor:pointer;
+    padding:1px 4px;
+    background:#387AB7;
+    border-color:#387AB7;
+    color:#fff;
+}
+
+/*決済ステータス*/
+#union_order #searchResult td .statusNormal{
+    color:#009900;
+}
+#union_order #searchResult td .statusError{
+    color:#cc0000;
+}
+
+#union_order .iconExplain li {
+    color: #666666;
+    display: inline;
+    font-size: 10px;
+    line-height: 18px;
+}
+
+/* 項目の編集 */
+#union_order #tableWrap .selectWindowOpenDisplayItem img {
+    position: absolute;
+    right: -82px;
+    top: -4px;
+}
+#union_order #tableWrap {
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+/* tooltip */
+#union_order #searchResult td a.tooltip span {
+    display: none;
+    margin-left: 8px;
+    padding: 5px 9px;
+}
+a.otherTip span {
+    width: 28em;
+}
+a.mobileTip span {
+    width: 70px;
+}
+a.deliTip span {
+    width: 160px;
+}
+a.reservationTip span {
+    width: 52px;
+}
+a.repeatTip span {
+    width: 52px;
+}
+a.repeatsaleTip span {
+    width: 140px;
+}
+a.smartphoneTip span {
+    width: 100px;
+}
+a.couponTip span {
+    width: 100px;
+}
+a.csvOrderTip span {
+    width: 80px;
+}
+a.ipTip span {
+    width: 140px;
+}
+a.tooltip span {
+    display: none;
+    margin-left: 8px;
+    padding: 5px 9px;
+    white-space: nowrap;
+}
+a.tooltip img {
+    padding: 1px;
+}
+a.tooltip:hover {
+    position: relative;
+    text-decoration: none;
+}
+#union_order #searchResult a.tooltip:hover span {
+    color: #333333;
+    display: inline;
+    left: 0.4em;
+    position: absolute;
+    text-align: left;
+    text-decoration: none;
+    top: 1em;
+	z-index:100;
+}
+a.rightTip:hover span {
+    background: none repeat scroll 0 0 #FEEFEF;
+    border: 1px solid #D16060;
+}
+a.leftTip:hover span {
+    background: none repeat scroll 0 0 #FFF0C7;
+    border: 1px solid #FDCA40;
+}
+a.mobileTip:hover span, a.reservationTip:hover span, a.repeatTip:hover span, a.repeatsaleTip:hover span, a.deliTip:hover span, a.smartphoneTip:hover span, a.couponTip:hover span, a.ipTip:hover span, a.csvOrderTip:hover span, a.apiTip:hover span {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border: 1px solid #666666;
+}
+
+/**************************************************
+
+    処理選択lightbox
+
+/*************************************************/
+#fancybox-frame html{
+	height:auto;
+}
+#disposeWindow{
+    background:#fff;
+    height:auto;
+}
+#disposeWindow img{
+    vertical-align:middle;
+}
+#disposeWindow .mainContents .inner{
+    width:572px;
+}
+#disposeWindow .mainContents{
+    width:620px;
+    padding-bottom:24px;
+}
+#disposeWindow  h2 {
+    border-bottom: 1px dotted #666666;
+    font-size: 14px;
+    padding-bottom: 4px;
+    margin-bottom:24px;
+}
+#disposeWindow .dft1 th{
+    width:80px;
+}
+#disposeWindow .dft1 td{
+    padding:10px 0 0 10px;
+}
+#disposeWindow .selectList li{
+    float:left;
+    margin:0 10px 10px 0;
+}
+#disposeWindow .selectList .selectBtn{
+    display:block;
+    height:22px;
+    padding-right:16px;
+    background:url("../images/order/selectBody.png") no-repeat right bottom;
+    line-height:22px;
+    text-decoration:none;
+    text-align:center;
+}
+#disposeWindow .selectList .selectBtn span{
+    display:block;
+    height:22px;
+    padding-left:16px;
+    background:url("../images/order/selectLeft.png") no-repeat left bottom;
+}
+#disposeWindow .selectList .selectBtn:hover,
+#disposeWindow .selectList .selected{
+    background-image:url("../images/order/hoverBody.png");
+    color:#333;
+}
+#disposeWindow .selectList .selectBtn:hover span,
+#disposeWindow .selectList .selected span{
+    background-image:url("../images/order/hoverLeft.png");
+}
+
+#disposeWindow .dft1 table th,#disposeWindow .dft1 table td{
+    border:none;
+    background:none;
+}
+#disposeWindow .dft1 table{
+    margin-bottom:6px;
+}
+#disposeWindow .dft1 table th{
+    text-align:left;
+    width:100px;
+    padding:0;
+}
+#disposeWindow .dft1 table td{
+    padding-top:0;
+}
+#disposeWindow .dft1 table .selectList .selectBtn{
+    width:70px;
+}
+#edit_title{
+    background:url("../images/order/pencil.png") no-repeat left top;
+    padding-left:18px;
+    margin:12px 0 4px;
+}
+.dispose_option{
+    display: none;
+}
